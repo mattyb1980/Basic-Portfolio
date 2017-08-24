@@ -9,11 +9,17 @@ body {
   background-size: 100%;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* All Container */
 
-.container {
+.container1 {
   width: 80%;
   margin: auto;
+  overflow: hidden;
 
 }
 
@@ -21,9 +27,9 @@ body {
 
 header {
   background: white;
-  padding-top: 30px;
-  position: fixed;
-  min-height: 100px;
+  color: white;
+  min-height: 80px;
+  width: 100%;
   border-bottom: 2px solid #888888;
 }
 
@@ -31,8 +37,70 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   color: #888888;
+
 }
 
 header ul {
+  margin-top: 60px;
+  float: right;
+  font-size: 15px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px
+}
+
+header h1 {
+  float: left;
+  background-color: #ee533c;
+  width: 35%;
+  height: 100px;
+  padding-top: 50px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
 
 }
+
+#Main {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  }
+
+.container2 {
+  float: left;
+  background-color: white;
+  width: 40%;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.container3 {
+  float: right;
+  background-color: white;
+  width: 30%;
+  margin-top: 50px;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container3 h1 {
+  color: #ee533c;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+  border-bottom: 2px solid #888888; 
+  margin: 0 20px 30px 20px;
+}
+
+.box {
+  display: inline;
+  padding-top: 20px;
+}
+
