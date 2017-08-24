@@ -4,8 +4,9 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-image: url("/Users/matthewbeebe/Rutgers Coding Bootcamp/Homework/1-HTML_CSS_Portfolio/Basic-Portfolio/assets/images/vintage-concrete.png");
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/white-paper-texture-with-flecks.jpg");
   background-color: #eee;
+  background-size: 100%;
 }
 
 /* All Container */
@@ -16,7 +17,7 @@ body {
 
 }
 
-/* Header */
+/* Header Info */
 
 header {
   background: white;
@@ -30,4 +31,8 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   color: #888888;
+}
+
+header ul {
+
 }
