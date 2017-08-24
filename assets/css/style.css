@@ -2,11 +2,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  padding: 0;
-  margin: 0;
-  background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/white-paper-texture-with-flecks.jpg");
+ /* padding: 0;
+  margin: 0;*/
+  background-image: url("../images/vintage-concrete.png");
   background-color: #eee;
   background-size: 100%;
+}
+
+h1 {
+  font-family: Georgia;
 }
 
 ul {
@@ -28,6 +32,7 @@ ul {
 header {
   background: white;
   color: white;
+  max-height: 80px;
   min-height: 80px;
   width: 100%;
   border-bottom: 2px solid #888888;
@@ -41,7 +46,7 @@ header a {
 }
 
 header ul {
-  margin-top: 60px;
+  margin-top: 30px;
   float: right;
   font-size: 15px;
 }
@@ -56,8 +61,8 @@ header h1 {
   float: left;
   background-color: #ee533c;
   width: 35%;
-  height: 100px;
-  padding-top: 50px;
+  height: 65px;
+  padding-top: 15px;
   margin: 0;
   font-weight: bold;
   text-align: center;
@@ -65,18 +70,61 @@ header h1 {
 
 }
 
+a:hover {
+  color: #ee533c;
+  font-weight: bold;
+}
+
+a:focus {
+  color: #ee533c;
+  font-weight: bold;
+}
+
+a:active {
+  color: blue;
+  font-weight: bold;
+}
+
+/*Main Section Of Site*/
+
 #Main {
   width: 80%;
   margin: auto;
+  padding-bottom: 50px;
   overflow: hidden;
   }
 
 .container2 {
   float: left;
   background-color: white;
-  width: 40%;
+  width: 650px;
   margin-top: 50px;
   overflow: hidden;
+  padding-top: 20px;
+}
+
+.container2 h1 {
+  color: #ee533c;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+  border-bottom: 2px solid #888888; 
+  margin: 0 20px 30px 20px;
+}
+
+.container2 img {
+  float: left;
+  padding: 0 0 20px 0; 
+  margin: 0 20px 30px 20px;
+}
+
+.container2 p {
+  overflow: hidden;
+  color: #888888;
+  font-size: 15px;
+  line-height: 2;
+  padding: 0 0 20px 0; 
+  margin: 0 20px 30px 20px;
 }
 
 .container3 {
@@ -92,7 +140,7 @@ header h1 {
 
 .container3 h1 {
   color: #ee533c;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   padding: 20px 0 20px 0;
   border-bottom: 2px solid #888888; 
@@ -103,4 +151,79 @@ header h1 {
   display: inline;
   padding-top: 20px;
 }
+
+footer {
+  background-color: #888888;
+  margin-top: 40px
+  max-height: 80px;
+  min-height: 80px;
+  width: 100%;
+  border-top: 4px solid #ee533c;
+  color: white;
+  text-align: center;
+}
+
+#Illimage {
+  /*position: relative;*/
+  width: 43%;
+  margin: 0;
+  border: 4px solid red;
+  overflow: hidden;
+}
+
+#image1 {
+  width: 100%;
+}
+
+#Ill {
+  /*position: relative;*/
+  /*overflow: hidden;*/
+  background-color: #ee533c;
+  top: 90px;
+  text-align: center;
+  left: 20px;
+}
+
+#Phoimage {
+  /*position: relative;*/
+  width: 43%;
+  float: left;
+}
+
+#Pho {
+
+}
+
+#image2 {
+  width: 100%;
+}
+
+#form {
+  padding: 30px;
+}
+
+input {
+  width: 575px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 575px;
+  height: 200px;
+}
+
+footer p {
+  padding-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
