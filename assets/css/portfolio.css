@@ -139,7 +139,7 @@ a:active {
 
 footer {
   background-color: #888888;
-  margin-top: 40px
+  /*margin-top: 40px*/
   max-height: 80px;
   min-height: 80px;
   width: 100%;
@@ -229,6 +229,10 @@ footer {
   margin: 0;
   border: 4px solid #ee533c;
   overflow: hidden;
+}
+
+footer p {
+  padding-top: 35px;
 }
 
 

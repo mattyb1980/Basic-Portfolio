@@ -154,7 +154,8 @@ a:active {
 
 footer {
   background-color: #888888;
-  margin-top: 40px
+  position: absolute;
+  bottom: 0;
   max-height: 80px;
   min-height: 80px;
   width: 100%;
