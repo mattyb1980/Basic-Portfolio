@@ -99,26 +99,17 @@ a:active {
   background-color: white;
   width: 650px;
   margin-top: 50px;
-  overflow: hidden;
-  padding-top: 20px;
+  /*overflow: hidden;*/
+  /*padding-top: 20px;*/
 }
 
 .container2 h1 {
   color: #ee533c;
   font-size: 25px;
   font-weight: bold;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
   border-bottom: 2px solid #888888; 
-  margin: 0 20px 30px 20px;
-}
-
-.container2 p {
-  overflow: hidden;
-  color: #888888;
-  font-size: 15px;
-  line-height: 2;
-  padding: 0 0 20px 0; 
-  margin: 0 20px 30px 20px;
+  margin: 0 20px 40px 20px;
 }
 
 .container3 {
@@ -162,7 +153,7 @@ footer {
 }
 
 #Ill {
-  position: relative;
+  /*position: relative;*/
   overflow: hidden;
   background-color: #ee533c;
   top: 225px;
@@ -171,7 +162,8 @@ footer {
 }
 
 #Illimage {
-  position: relative;
+  /*position: relative;*/
+  float: left;
   width: 43%;
   margin: 0;
   border: 4px solid #ee533c;
@@ -183,15 +175,61 @@ footer {
 }
 
 #Pho {
-
+  position: relative;
+  overflow: hidden;
+  background-color: #ee533c;
+  top: 225px;
+  text-align: center;
 }
 
 #Phoimage {
-  /*position: relative;*/
+  position: relative;
   width: 43%;
-  float: left;
+  margin: 0;
+  border: 4px solid #ee533c;
+  overflow: hidden;
 }
 
+#image3 {
+  width: 100%;
+}
+
+#Pro {
+  position: relative;
+  overflow: hidden;
+  background-color: #ee533c;
+  top: 225px;
+  text-align: center;
+}
+
+#Proimage {
+  float: left;
+  position: relative;
+  width: 43%;
+  margin: 0;
+  border: 4px solid #ee533c;
+  overflow: hidden;
+}
+
+#image4 {
+  width: 100%;
+}
+
+#Dig {
+  position: relative;
+  overflow: hidden;
+  background-color: #ee533c;
+  top: 225px;
+  text-align: center;
+}
+
+#Digitalimage {
+  position: relative;
+  width: 43%;
+  margin: 0;
+  border: 4px solid #ee533c;
+  overflow: hidden;
+}
 
 
 
