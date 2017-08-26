@@ -5,64 +5,51 @@
   <meta charset="UTF-8">
   <title>My Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <div class="container1">
-      <div id="logo">
-        <h1>Matt Beebe</h1>
-      </div>
-      
+  
+  <header id="navbar">
+    <div class="container">
+      <a href="index.html" id="logo">Matt Beebe</a>
       <nav>
-        <ul>
-          <li>
-            <a href="index.html">About
-            </a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio
-            </a>
-          </li>
-          <li>
-            <a href="contact.html">Contact
-            </a>
-          </li>
-        </ul>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
+  </header>
+  
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+      
+      <img src="assets/images/SelfPortrait.png" class="profile-image" alt="Matt Beebe">
+      
+      <p>I have been drawing ever since I can remember. I have always had an insanely creative mind, and loved spilling those creations out on paper. Recently I picked up photography, which has been a nice instant gratification. I love drawing and all, but I never quite feel that they are finished.</p>
 
-    </header>
+      <p>I also have a crazy love of cars, and I love making my way around to different car shows. I had the privilage of driving in the BMW Ultimate Driver Experience, and came in 4th place out of my group.</p>
     
-    <section id="Main">
-      <div class="container2">
-        <h1>About Me</h1>
-          <img src="assets/images/SelfPortrait.png" width="35%">
-          <p>I have been drawing ever since I can remember. I have always had an insanely creative mind, and loved spilling those creations out on paper. Recently I picked up photography, which has been a nice instant gratification. I love drawing and all, but I never quite feel that they are finished.</p>
-      </div>
-      <div class="container3">
-        <h1>Connect with Me</h1>
-        <div class="box">
-          <a href="https://github.com/mattyb1980" target="_blank">
-            <img src="assets/images/github.png" width="25%"></a>
-        </div>
-        <div class="box">
-          <a href="https://www.linkedin.com/in/mattwbeebe/" target="_blank">
-            <img src="assets/images/linkedin.png" width="25%"></a>
-        </div>
-        <div class="box">
-          <a href="https://stackoverflow.com/users/8454980/mattyb1980" target="_blank">
-            <img src="assets/images/stackoverflow.png" width="25%"></a>
-        </div>
+    </section>
+        
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        
+        <a href="https://github.com/mattyb1980" target="_blank">
+        <img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/mattwbeebe/" target="_blank"><img src="assets/images/linkedin.png" class="social" alt="linkedin" /></a>
+        <a href="https://stackoverflow.com/users/8454980/mattyb1980" target="_blank"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
       </div>
     </section>
+  </div>
  
-  
-    <footer>
-      <p>Matt Beebe Copyright, &copy; 2017</p>
-    </footer>
-
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2017 Matt Beebe</p>
+    </div>
+  </footer>
 </body>
 
 </html>
